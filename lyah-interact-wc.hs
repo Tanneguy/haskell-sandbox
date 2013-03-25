@@ -10,3 +10,8 @@ main = interact wordCount
   where wordCount input = show (length (myChars input)) ++ "\n"
 
 
+facs = 1 : zipWith(*) facs [1..]
+fac n = take 10 facs
+
+
+

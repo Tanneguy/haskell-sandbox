@@ -15,6 +15,7 @@ data Task = Task { tid :: Int
             deriving (Show)
 
 data Pert =  Pert [Task]
+            deriving (Show)
 
 
 t1 = Task 1 5 []
